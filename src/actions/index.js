@@ -1,8 +1,8 @@
-import { CHAGNE_AUTH } from './types';
+import { CHANGE_AUTH } from './types';
 
 export function authenticate (isLoggedIn){
     return {
-        type: CHAGNE_AUTH,
+        type: CHANGE_AUTH,
         payload: isLoggedIn
     };
 }
